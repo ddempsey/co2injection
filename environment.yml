@@ -1,0 +1,14 @@
+name: co2-inj
+channels:
+  - conda-forge
+  - nodefaults        
+dependencies:
+  - python=3.11                
+  - numpy=2.3.2
+  - scipy=1.16
+  - matplotlib=3.10.5
+  - mpmath=1.3.0
+  - pip                        
+  - pytest=8.4.1
+  - pip:
+      - ddeint=0.3.0           
